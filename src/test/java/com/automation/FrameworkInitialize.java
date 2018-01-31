@@ -11,8 +11,7 @@ public class FrameworkInitialize extends Base {
 		WebDriver driver = null;
 		switch (browserType) {
 		case Chrome: {
-			System.setProperty("webdriver.chrome.driver",
-					System.getProperty("user.dir") + "//chromedriver.exe");
+			System.setProperty("webdriver.chrome.driver", System.getProperty("user.dir") + "//chromedriver.exe");
 			driver = new ChromeDriver();
 			break;
 		}

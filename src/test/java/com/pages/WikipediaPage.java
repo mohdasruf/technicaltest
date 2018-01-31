@@ -17,8 +17,6 @@ public class WikipediaPage extends BasePage {
 	@FindBy(how = How.CLASS_NAME, using = "pure-button")
 	public WebElement submitButton;
 
-	
-
 	public void selectLanguage(String value) {
 		Select oSelect = new Select(selectLanguage);
 		oSelect.selectByValue(value);
@@ -28,7 +26,7 @@ public class WikipediaPage extends BasePage {
 		submitButton.click();
 		return new SearchResultPage();
 	}
-	
+
 	public void enterSearchInput(String searchInput) {
 		search.sendKeys(searchInput);
 	}
