@@ -1,0 +1,10 @@
+com\pages\WikipediaPage.class
+com\automation\FrameworkInitialize$1.class
+com\pages\SearchResultPage.class
+com\automation\DriverContext.class
+com\automation\Base.class
+com\automation\BasePage.class
+com\automation\Browser.class
+com\automation\BrowserType.class
+com\automation\FrameworkInitialize.class
+Tests\WikiTests.class
