@@ -55,32 +55,10 @@
     <version>2.9.0</version>
 </dependency>
     </dependencies>
-    <build>
-
-        <pluginManagement>
-            <plugins>
-            <plugin>
-<groupId>com.smartbear.soapui</groupId>
-    <artifactId>soapui-maven-plugin</artifactId>
-    <version>5.2.1</version>
-    <configuration>
-    <projectFile>${basedir}/UKLocation-soapui-project.xml</projectFile>
-     <outputFolder>${basedir}/reports</outputFolder>
-                <junitReport>true</junitReport>
-                <exportAll>true</exportAll>
-                <printReport>true</printReport>
-</configuration>
-    <executions>
-    <execution>
-<id>soapui-test</id>
-            <phase>integration-test</phase>
-            <goals>
-            <goal>test</goal>
-         </goals>
-    </execution>
-</executions>
-</plugin>
-                <plugin>
+   <build>
+      <plugins>
+        
+<plugin>
                     <groupId>org.apache.maven.plugins</groupId>
                     <artifactId>maven-compiler-plugin</artifactId>
                     <version>3.3</version>
@@ -89,29 +67,13 @@
                 <target>1.8</target>
             </configuration>
                 </plugin>
-                <plugin>
-                    <groupId>org.apache.maven.plugins</groupId>
-                    <artifactId>maven-jar-plugin</artifactId>
-                    <version>2.3.1</version>
-                </plugin>
-                <plugin>
-                    <groupId>org.apache.maven.plugins</groupId>
-                    <artifactId>maven-resources-plugin</artifactId>
-                    <version>2.5</version>
-                </plugin>
-                <plugin>
-                    <groupId>org.codehaus.mojo</groupId>
-                    <artifactId>exec-maven-plugin</artifactId>
-                    <version>1.2.1</version>
-                </plugin>
-            </plugins>
-        </pluginManagement>
+      </plugins>
 
-    </build>
-            <pluginRepositories>
-<pluginRepository>
-    <id>smartbear-sweden-plugin-repository</id>
-      <url>http://www.soapui.org/repository/maven2</url>
-  </pluginRepository>
-</pluginRepositories>
+   </build>
+ <pluginRepositories>
+      <pluginRepository>
+         <id>SmartBearPluginRepository</id>
+         <url>http://smartbearsoftware.com/repository/maven2</url>
+      </pluginRepository>
+   </pluginRepositories>
 </project>

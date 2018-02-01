@@ -27,7 +27,6 @@
 			<attribute name="maven.pomderived" value="true"/>
 		</attributes>
 	</classpathentry>
-	<classpathentry kind="lib" path="C:/Program Files/SmartBear/SoapUI-5.4.0/lib/activation-1.1.jar"/>
 	<classpathentry kind="lib" path="C:/Users/Alex/Downloads/soapui-1.7.1.jar/soapui-1.7.1.jar"/>
 	<classpathentry kind="lib" path="C:/Users/Alex/Downloads/soapui-xmlbeans-1.7.jar/soapui-xmlbeans-1.7.jar"/>
 	<classpathentry kind="output" path="target/classes"/>

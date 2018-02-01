@@ -1,4 +1,5 @@
 com\pages\WikipediaPage.class
+Tests\LongestOrderedSubSequence.class
 com\automation\FrameworkInitialize$1.class
 com\pages\SearchResultPage.class
 com\automation\DriverContext.class

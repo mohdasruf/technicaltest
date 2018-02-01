@@ -7,7 +7,7 @@ public class LongestOrderedSubSequence {
 	private static Scanner numScanner;
 	private static Scanner s;
 
-	public static int maxLength(int[] arr) {
+	public static int maximumLength(int[] arr) {
 		if (arr.length <= 1)
 			return arr.length;
 		int maxLength = 1;
@@ -47,7 +47,7 @@ public class LongestOrderedSubSequence {
 			}
 		}
 
-		System.out.println("maximum length:" + maxLength(numbers));
+		System.out.println("maximum length:" + maximumLength(numbers));
 
 	}
 
